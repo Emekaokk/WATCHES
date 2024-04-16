@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROLEX</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 20s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style> 
+</head>
+<body class="font-sans bg-gray-100">
+  <nav class="bg-gray-800 text-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+         <a href="index.html " class="font-bold text-xl">ROLEX</a>
+          <ul class="flex space-x-4">
+              <li><a href="index.html" class="hover.text-red-300">HOME</a></li>
+              <li><a href="products.html" class="hover.text-gray-300">PRODUCTS</a></li>
+              <li><a href="contact.html" class="hover.text-gray-300">CONTACT</a></li>
+         </ul>
+      </div>
+  </nav>
+
+  <div class="bg-gray-800 text-white py-20 px-4 md:px-0">
+       <div class="container mx-auto text-center">
+          <h1 class="text-4xl font-bold mb-4">ROLEX WATCHES 2024</h1>
+         <p class="text-lg text-gray-300 mb-8">THE HARMONY OF CONTRASTS</p>
+         <a href="products.html" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-md">SHOP NOW</a>
+      </div>
+  </div>
+
+  <div class="container mx-auto">
+     <img src="rolx.webp" alt="" class="w-full">
+  </div>
+
+  
+    
+
+
+  <footer class="bg-gray-800 text-white p-4 mt-8">
+     <div class="container mx-auto text-center">
+        <p>&copy; 2024 ROLEX,ALL RIGHTS RESERVED</p>
+     </div>
+  </footer>
+
+  
+</body>
+</html>
